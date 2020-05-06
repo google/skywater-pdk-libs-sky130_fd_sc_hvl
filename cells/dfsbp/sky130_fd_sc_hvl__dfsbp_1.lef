@@ -18,6 +18,11 @@ VERSION 5.5 ;
 NAMESCASESENSITIVE ON ;
 BUSBITCHARS "[]" ;
 DIVIDERCHAR "/" ;
+SITE unithvdbl
+    SYMMETRY y  ;
+    CLASS CORE  ;
+    SIZE  0.480 BY 8.140 ;
+END unithvdbl
 MACRO sky130_fd_sc_hvl__dfsbp_1
   CLASS CORE ;
   SOURCE USER ;
