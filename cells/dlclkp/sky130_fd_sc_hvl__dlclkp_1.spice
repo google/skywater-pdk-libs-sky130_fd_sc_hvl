@@ -1,0 +1,45 @@
+* NGSPICE file created from sky130_fd_sc_hvl__dlclkp_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hvl__dlclkp_1 CLK GATE VGND VNB VPB VPWR GCLK
+M1000 a_189_445# GATE VPWR VPB phv w=750000u l=500000u
++  ad=1.875e+11p pd=2e+06u as=1.20135e+12p ps=1.126e+07u
+M1001 a_1069_133# a_303_311# VGND VNB nhv w=420000u l=500000u
++  ad=1.113e+11p pd=1.37e+06u as=5.8935e+11p ps=6.41e+06u
+M1002 a_189_159# GATE VGND VNB nhv w=420000u l=500000u
++  ad=1.05e+11p pd=1.34e+06u as=0p ps=0u
+M1003 a_1438_171# a_1069_133# VPWR VPB phv w=750000u l=500000u
++  ad=2.1e+11p pd=2.06e+06u as=0p ps=0u
+M1004 a_1027_159# a_239_419# a_303_311# VNB nhv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=2.226e+11p ps=2.74e+06u
+M1005 a_231_71# CLK VGND VNB nhv w=420000u l=500000u
++  ad=1.113e+11p pd=1.37e+06u as=0p ps=0u
+M1006 a_231_71# CLK VPWR VPB phv w=750000u l=500000u
++  ad=1.9875e+11p pd=2.03e+06u as=0p ps=0u
+M1007 a_303_311# a_239_419# a_189_445# VPB phv w=750000u l=500000u
++  ad=3.1005e+11p pd=3.4e+06u as=0p ps=0u
+M1008 a_1069_133# a_303_311# VPWR VPB phv w=420000u l=500000u
++  ad=1.113e+11p pd=1.37e+06u as=0p ps=0u
+M1009 VGND a_1069_133# a_1027_159# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 GCLK a_1438_171# VGND VNB nhv w=750000u l=500000u
++  ad=1.9875e+11p pd=2.03e+06u as=0p ps=0u
+M1011 VGND CLK a_1591_171# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.176e+11p ps=1.4e+06u
+M1012 a_303_311# a_231_71# a_189_159# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 a_1027_457# a_231_71# a_303_311# VPB phv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=0p ps=0u
+M1014 VPWR a_1069_133# a_1027_457# VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 a_1591_171# a_1069_133# a_1438_171# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.113e+11p ps=1.37e+06u
+M1016 GCLK a_1438_171# VPWR VPB phv w=1.5e+06u l=500000u
++  ad=3.975e+11p pd=3.53e+06u as=0p ps=0u
+M1017 VGND a_231_71# a_239_419# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.113e+11p ps=1.37e+06u
+M1018 VPWR a_231_71# a_239_419# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=1.9875e+11p ps=2.03e+06u
+M1019 VPWR CLK a_1438_171# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

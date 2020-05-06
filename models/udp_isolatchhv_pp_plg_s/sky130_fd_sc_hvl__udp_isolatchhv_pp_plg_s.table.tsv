@@ -1,0 +1,6 @@
+UDP_IN	VPWR	LVPWR	VGND	SLEEP	:	out	Comments
+0	1	1	0	b	:	0	
+1	1	1	0	0	:	1	
+b	1	?	0	1	:	0	
+?	1	0	0	1	:	0	
+x	1	1	0	1	:	x	

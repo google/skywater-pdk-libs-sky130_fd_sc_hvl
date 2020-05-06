@@ -1,0 +1,37 @@
+* NGSPICE file created from sky130_fd_sc_hvl__inv_8.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hvl__inv_8 A VGND VNB VPB VPWR Y
+M1000 Y A VGND VNB nhv w=750000u l=500000u
++  ad=8.4e+11p pd=8.24e+06u as=1.14e+12p ps=1.054e+07u
+M1001 VGND A Y VNB nhv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1002 Y A VGND VNB nhv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1003 Y A VPWR VPB phv w=1.5e+06u l=500000u
++  ad=1.68e+12p pd=1.424e+07u as=2.055e+12p ps=1.774e+07u
+M1004 VPWR A Y VPB phv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 VGND A Y VNB nhv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 Y A VGND VNB nhv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 VPWR A Y VPB phv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 VGND A Y VNB nhv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 Y A VPWR VPB phv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 Y A VGND VNB nhv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 VPWR A Y VPB phv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 Y A VPWR VPB phv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 VGND A Y VNB nhv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 Y A VPWR VPB phv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 VPWR A Y VPB phv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

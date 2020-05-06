@@ -1,0 +1,73 @@
+* NGSPICE file created from sky130_fd_sc_hvl__dfsbp_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hvl__dfsbp_1 CLK D SET_B VGND VNB VPB VPWR Q Q_N
+M1000 a_1874_543# a_30_112# a_1732_543# VPB phv w=1e+06u l=500000u
++  ad=4.509e+11p pd=4.2e+06u as=2.1e+11p ps=2.42e+06u
+M1001 a_605_109# D VGND VNB nhv w=420000u l=500000u
++  ad=1.176e+11p pd=1.4e+06u as=1.18635e+12p ps=1.226e+07u
+M1002 Q a_3129_479# VGND VNB nhv w=750000u l=500000u
++  ad=2.1375e+11p pd=2.07e+06u as=0p ps=0u
+M1003 VGND a_1874_543# a_2156_417# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.197e+11p ps=1.41e+06u
+M1004 a_1874_543# SET_B VPWR VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=2.0131e+12p ps=1.705e+07u
+M1005 a_339_112# a_30_112# VGND VNB nhv w=420000u l=500000u
++  ad=1.113e+11p pd=1.37e+06u as=0p ps=0u
+M1006 a_959_83# a_761_109# VPWR VPB phv w=420000u l=500000u
++  ad=1.176e+11p pd=1.4e+06u as=0p ps=0u
+M1007 a_917_109# a_339_112# a_761_109# VNB nhv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=1.176e+11p ps=1.4e+06u
+M1008 VGND a_959_83# a_917_109# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 VPWR a_959_83# a_976_543# VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=8.82e+10p ps=1.26e+06u
+M1010 a_1642_107# a_339_112# a_1874_543# VNB nhv w=750000u l=500000u
++  ad=5.7375e+11p pd=4.53e+06u as=4.042e+11p ps=2.92e+06u
+M1011 VPWR a_2156_417# a_2053_543# VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=2.163e+11p ps=1.87e+06u
+M1012 a_761_109# a_339_112# a_605_109# VPB phv w=420000u l=500000u
++  ad=1.176e+11p pd=1.4e+06u as=1.176e+11p ps=1.4e+06u
+M1013 VGND a_1874_543# a_3129_479# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.197e+11p ps=1.41e+06u
+M1014 a_761_109# a_30_112# a_605_109# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 Q a_3129_479# VPWR VPB phv w=1e+06u l=500000u
++  ad=2.85e+11p pd=2.57e+06u as=0p ps=0u
+M1016 Q_N a_1874_543# VGND VNB nhv w=750000u l=500000u
++  ad=2.1375e+11p pd=2.07e+06u as=0p ps=0u
+M1017 VPWR CLK a_30_112# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=2.1375e+11p ps=2.07e+06u
+M1018 Q_N a_1874_543# VPWR VPB phv w=1.5e+06u l=500000u
++  ad=4.275e+11p pd=3.57e+06u as=0p ps=0u
+M1019 a_2427_107# a_2156_417# a_1755_153# VNB nhv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=2.31e+11p ps=2.78e+06u
+M1020 VGND SET_B a_2427_107# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1021 a_2053_543# a_339_112# a_1874_543# VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1022 a_605_109# D VPWR VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1023 VGND CLK a_30_112# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.113e+11p ps=1.37e+06u
+M1024 VPWR a_1874_543# a_3129_479# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=2.1375e+11p ps=2.07e+06u
+M1025 a_1325_107# a_761_109# a_959_83# VNB nhv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=1.113e+11p ps=1.37e+06u
+M1026 VPWR a_1874_543# a_2156_417# VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=1.197e+11p ps=1.41e+06u
+M1027 VGND SET_B a_1325_107# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1028 a_1874_543# a_30_112# a_1755_153# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1029 a_1642_107# a_761_109# VGND VNB nhv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1030 a_339_112# a_30_112# VPWR VPB phv w=750000u l=500000u
++  ad=2.1375e+11p pd=2.07e+06u as=0p ps=0u
+M1031 a_976_543# a_30_112# a_761_109# VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1032 VPWR SET_B a_959_83# VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1033 a_1732_543# a_761_109# VPWR VPB phv w=1e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

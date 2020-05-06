@@ -1,0 +1,590 @@
+{
+  "clk_width": 4e-08,
+  "comp_attribute voltage_map": [
+    [
+      "LOWHVPWR",
+      1.65
+    ],
+    [
+      "LVPWR",
+      1.95
+    ],
+    [
+      "VGND",
+      0.0
+    ],
+    [
+      "VNB",
+      0.0
+    ],
+    [
+      "VPB",
+      5.5
+    ],
+    [
+      "VPWR",
+      5.5
+    ]
+  ],
+  "default_arc_mode": "worst_edges",
+  "default_fanout_load": 0.0,
+  "define": [
+    {
+      "attribute_name": "switching_power_split_model",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "driver_model",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "tran_timestep",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "leakage_sim_opt",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "default_arc_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "def_sim_opt",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "simulator",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "clk_width",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "default_constraint_arc_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "min_pulse_width_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    }
+  ],
+  "driver_model": "ramp",
+  "leakage_power_unit": "1nW",
+  "leakage_sim_opt": "runlvl=5 accurate=1 method=gear absh=1e-14 absmos=1e-12 relmos=0.01 absi=1e-5 runlvl=5 accurate=1 method=bdf kcltest=1 runlvl=5 accurate=1 method=bdf kcltest=1 runlvl=5 accurate=1 method=bdf kcltest=1 runlvl=5 accurate=1 method=bdf kcltest=1 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15",
+  "lu_table_template del_1_11_7": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variable_1": "input_net_transition",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "lu_table_template del_1_11_9": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "variable_1": "input_net_transition",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "lu_table_template del_1_13_9": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "variable_1": "input_net_transition",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "lu_table_template del_1_15_7": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variable_1": "input_net_transition",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "lu_table_template del_1_15_9": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "variable_1": "input_net_transition",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "nom_temperature": -40.0,
+  "nom_voltage": 5.5,
+  "normalized_driver_waveform driver_waveform_template": {
+    "driver_waveform_name": "ramp",
+    "index_1": [
+      0.001,
+      0.01,
+      0.013,
+      0.01735,
+      0.026,
+      0.02602,
+      0.03903,
+      0.05855,
+      0.072,
+      0.08782,
+      0.13172,
+      0.19757,
+      0.216,
+      0.29634,
+      0.432,
+      0.44449,
+      0.6667,
+      0.864,
+      1.0,
+      1.296,
+      1.5,
+      2.0,
+      2.5,
+      3.125,
+      3.7499999,
+      4.5,
+      5.0,
+      6.25,
+      7.5
+    ],
+    "index_2": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "values": [
+      [
+        0.0,
+        0.00083333333,
+        0.0016666667
+      ],
+      [
+        0.0,
+        0.0083333333,
+        0.016666667
+      ],
+      [
+        0.0,
+        0.010833333,
+        0.021666667
+      ],
+      [
+        0.0,
+        0.014458333,
+        0.028916667
+      ],
+      [
+        0.0,
+        0.021666667,
+        0.043333333
+      ],
+      [
+        0.0,
+        0.021683333,
+        0.043366667
+      ],
+      [
+        0.0,
+        0.032525,
+        0.06505
+      ],
+      [
+        0.0,
+        0.048791667,
+        0.097583333
+      ],
+      [
+        0.0,
+        0.06,
+        0.12
+      ],
+      [
+        0.0,
+        0.073183333,
+        0.14636667
+      ],
+      [
+        0.0,
+        0.10976667,
+        0.21953333
+      ],
+      [
+        0.0,
+        0.16464167,
+        0.32928333
+      ],
+      [
+        0.0,
+        0.18,
+        0.36
+      ],
+      [
+        0.0,
+        0.24695,
+        0.4939
+      ],
+      [
+        0.0,
+        0.36,
+        0.72
+      ],
+      [
+        0.0,
+        0.37040833,
+        0.74081667
+      ],
+      [
+        0.0,
+        0.55558333,
+        1.1111667
+      ],
+      [
+        0.0,
+        0.72,
+        1.44
+      ],
+      [
+        0.0,
+        0.83333333,
+        1.6666667
+      ],
+      [
+        0.0,
+        1.08,
+        2.16
+      ],
+      [
+        0.0,
+        1.25,
+        2.5
+      ],
+      [
+        0.0,
+        1.6666667,
+        3.3333333
+      ],
+      [
+        0.0,
+        2.0833333,
+        4.1666667
+      ],
+      [
+        0.0,
+        2.6041667,
+        5.2083333
+      ],
+      [
+        0.0,
+        3.1249999,
+        6.2499998
+      ],
+      [
+        0.0,
+        3.75,
+        7.5
+      ],
+      [
+        0.0,
+        4.1666667,
+        8.3333333
+      ],
+      [
+        0.0,
+        5.2083333,
+        10.416667
+      ],
+      [
+        0.0,
+        6.25,
+        12.5
+      ]
+    ]
+  },
+  "operating_conditions hvss_lvff_n40C_5v50": {
+    "process": 1.0,
+    "temperature": -40.0,
+    "tree_type": "balanced_tree",
+    "voltage": 5.5
+  },
+  "power_lut_template power_inputs_1": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "variable_1": "input_transition_time"
+  },
+  "power_lut_template power_outputs_1": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variable_1": "input_transition_time",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "power_lut_template power_outputs_2": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "variable_1": "input_transition_time",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "power_lut_template power_outputs_3": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "variable_1": "input_transition_time",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "power_lut_template power_outputs_4": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variable_1": "input_transition_time",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "power_lut_template power_outputs_5": {
+    "index_1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "index_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "variable_1": "input_transition_time",
+    "variable_2": "total_output_net_capacitance"
+  },
+  "slew_derate_from_library": 1.0,
+  "tran_timestep": 1e-12
+}

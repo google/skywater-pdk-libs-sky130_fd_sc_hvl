@@ -1,0 +1,23 @@
+D	GATE	NOTIFIER	VPWR	VGND	:	Qtn	:	Qtn+1	Comments
+*	0	?	1	0	:	?	:	-	
+?	(?0)	?	1	0	:	?	:	-	
+?	(1x)	?	1	0	:	?	:	-	
+0	(0x)	?	1	0	:	0	:	0	
+1	(0x)	?	1	0	:	1	:	1	
+0	(x1)	?	1	0	:	?	:	0	
+1	(x1)	?	1	0	:	?	:	1	
+0	1	?	1	0	:	?	:	0	
+1	1	?	1	0	:	?	:	1	
+0	(01)	?	1	0	:	?	:	0	
+1	(01)	?	1	0	:	?	:	1	
+1	x	?	1	0	:	1	:	1	Reducing pessimism.
+0	x	?	1	0	:	0	:	0	
+IfDef(functional)	
+?	?	*	1	0	:	?	:	-	ignore notifier
+Else	
+?	?	*	1	0	:	?	:	x	notifier
+EndIfDef(functional)	
+?	?	?	0	?	:	?	:	x	vpwr != 1
+?	?	?	x	?	:	?	:	x	vpwr != 1
+?	?	?	?	1	:	?	:	x	vgnd != 0
+?	?	?	?	x	:	?	:	x	vgnd != 0

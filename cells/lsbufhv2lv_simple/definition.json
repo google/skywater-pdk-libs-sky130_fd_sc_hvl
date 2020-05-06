@@ -1,0 +1,53 @@
+{
+ "description": "Level shifting buffer, High Voltage to Low Voltage, simple (hv devices in inverters on lv power rail).",
+ "file_prefix": "sky130_fd_sc_hvl__lsbufhv2lv_simple",
+ "library": "sky130_fd_sc_hvl",
+ "name": "lsbufhv2lv_simple",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "LVPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hvl__lsbufhv2lv_simple"
+}

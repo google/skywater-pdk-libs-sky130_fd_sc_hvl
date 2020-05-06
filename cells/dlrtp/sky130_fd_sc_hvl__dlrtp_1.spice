@@ -1,0 +1,45 @@
+* NGSPICE file created from sky130_fd_sc_hvl__dlrtp_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hvl__dlrtp_1 D GATE RESET_B VGND VNB VPB VPWR Q
+M1000 a_1512_107# a_917_107# a_1138_81# VNB nhv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=1.197e+11p ps=1.41e+06u
+M1001 VPWR a_345_107# a_462_107# VPB phv w=750000u l=500000u
++  ad=1.18995e+12p pd=1.02e+07u as=2.1375e+11p ps=2.07e+06u
+M1002 VPWR RESET_B a_1138_81# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=2.1e+11p ps=2.06e+06u
+M1003 VGND RESET_B a_1512_107# VNB nhv w=420000u l=500000u
++  ad=6.1485e+11p pd=6.5e+06u as=0p ps=0u
+M1004 a_1096_107# a_345_107# a_917_107# VNB nhv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=1.659e+11p ps=1.63e+06u
+M1005 a_345_107# GATE VPWR VPB phv w=750000u l=500000u
++  ad=2.1375e+11p pd=2.07e+06u as=0p ps=0u
+M1006 a_1096_491# a_462_107# a_917_107# VPB phv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=2.5995e+11p ps=2.29e+06u
+M1007 a_345_107# GATE VGND VNB nhv w=420000u l=500000u
++  ad=1.197e+11p pd=1.41e+06u as=0p ps=0u
+M1008 a_775_107# a_32_107# VGND VNB nhv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=0p ps=0u
+M1009 VGND a_1138_81# a_1096_107# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 a_775_491# a_32_107# VPWR VPB phv w=750000u l=500000u
++  ad=1.575e+11p pd=1.92e+06u as=0p ps=0u
+M1011 a_1138_81# a_917_107# VPWR VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 a_917_107# a_462_107# a_775_107# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 VPWR a_1138_81# a_1096_491# VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 VPWR D a_32_107# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=2.1375e+11p ps=2.07e+06u
+M1015 Q a_1138_81# VGND VNB nhv w=750000u l=500000u
++  ad=2.1375e+11p pd=2.07e+06u as=0p ps=0u
+M1016 a_917_107# a_345_107# a_775_491# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 Q a_1138_81# VPWR VPB phv w=1.5e+06u l=500000u
++  ad=4.275e+11p pd=3.57e+06u as=0p ps=0u
+M1018 VGND a_345_107# a_462_107# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.197e+11p ps=1.41e+06u
+M1019 VGND D a_32_107# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.197e+11p ps=1.41e+06u
+.ends
+

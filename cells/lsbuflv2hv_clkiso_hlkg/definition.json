@@ -1,0 +1,59 @@
+{
+ "description": "Level-shift clock buffer, low voltage to high voltage, isolated well on input buffer, inverting sleep mode input.",
+ "file_prefix": "sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg",
+ "library": "sky130_fd_sc_hvl",
+ "name": "lsbuflv2hv_clkiso_hlkg",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "signal",
+   "SLEEP_B",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "LVPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg"
+}

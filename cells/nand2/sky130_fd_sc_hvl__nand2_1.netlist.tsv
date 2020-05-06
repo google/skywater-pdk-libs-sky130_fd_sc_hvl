@@ -1,0 +1,6 @@
+sky130_fd_sc_hvl__nand2_1	A:I B:I VGND:I VNB:I VPB:I VPWR:I Y:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MMP0	MOSFET	Y	A	VPWR	VPB	phv	1	1.5	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP1	MOSFET	Y	B	VPWR	VPB	phv	1	1.5	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN0	MOSFET	Y	A	sndA	VNB	nhv	1	0.75	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN1	MOSFET	sndA	B	VGND	VNB	nhv	1	0.75	0.5	1	0.265	0.265	0.28	normal	0.063	1.14

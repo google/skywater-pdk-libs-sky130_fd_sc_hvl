@@ -1,0 +1,45 @@
+* NGSPICE file created from sky130_fd_sc_hvl__lsbuflv2hv_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hvl__lsbuflv2hv_1 A LVPWR VGND VNB VPB VPWR X
+M1000 a_1197_107# a_772_151# a_686_151# VNB nhv w=1.5e+06u l=500000u
++  ad=1.2375e+12p pd=1.065e+07u as=1.2375e+12p ps=1.065e+07u
+M1001 X a_1711_885# VPWR VPB phv w=1.5e+06u l=500000u
++  ad=3.975e+11p pd=3.53e+06u as=5.988e+11p ps=5.02e+06u
+M1002 VGND a_404_1133# a_504_1221# VNB nhv w=1.5e+06u l=500000u
++  ad=1.48125e+12p pd=1.28e+07u as=1.2375e+12p ps=1.065e+07u
+M1003 a_504_1221# a_404_1133# VGND VNB nhv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 LVPWR A a_404_1133# LVPWR phighvt w=840000u l=150000u
++  ad=2.352e+11p pd=2.24e+06u as=2.478e+11p ps=2.27e+06u
+M1005 X a_1711_885# VGND VNB nhv w=750000u l=500000u
++  ad=1.9875e+11p pd=2.03e+06u as=0p ps=0u
+M1006 a_1606_563# a_1197_107# a_504_1221# VPB phv w=420000u l=1e+06u
++  ad=2.142e+11p pd=1.99e+06u as=2.142e+11p ps=1.99e+06u
+M1007 a_1197_107# a_772_151# a_686_151# VNB nhv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 a_504_1221# a_404_1133# VGND VNB nhv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 a_1197_107# a_772_151# a_686_151# VNB nhv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 VGND a_404_1133# a_504_1221# VNB nhv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 a_504_1221# a_404_1133# VGND VNB nhv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 a_686_151# a_772_151# a_1197_107# VNB nhv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 VPWR a_504_1221# a_1711_885# VPB phv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=3.975e+11p ps=3.53e+06u
+M1014 a_686_151# A a_404_1133# VNB nshort w=840000u l=150000u
++  ad=2.352e+11p pd=2.24e+06u as=2.478e+11p ps=2.27e+06u
+M1015 a_772_151# a_404_1133# a_686_151# VNB nshort w=840000u l=150000u
++  ad=2.478e+11p pd=2.27e+06u as=0p ps=0u
+M1016 VGND a_504_1221# a_1711_885# VNB nhv w=750000u l=500000u
++  ad=0p pd=0u as=1.9875e+11p ps=2.03e+06u
+M1017 a_772_151# a_404_1133# LVPWR LVPWR phighvt w=840000u l=150000u
++  ad=2.478e+11p pd=2.27e+06u as=0p ps=0u
+M1018 VPWR a_504_1221# a_1197_107# VPB phv w=420000u l=1e+06u
++  ad=0p pd=0u as=1.365e+11p ps=1.49e+06u
+M1019 a_686_151# a_772_151# a_1197_107# VNB nhv w=1.5e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

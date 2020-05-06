@@ -1,0 +1,7 @@
+sky130_fd_sc_hvl__probec_p_8	A:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+rI112	net34 X short
+MMIN1	MOSFET	Ab	A	VGND	VNB	nhv	3	0.75	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN2	MOSFET	net34	Ab	VGND	VNB	nhv	8	0.75	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP1	MOSFET	Ab	A	VPWR	VPB	phv	3	1.5	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP2	MOSFET	net34	Ab	VPWR	VPB	phv	8	1.5	0.5	1	0.265	0.265	0.28	normal	0.063	1.14

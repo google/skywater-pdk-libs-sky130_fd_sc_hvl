@@ -1,0 +1,49 @@
+* NGSPICE file created from sky130_fd_sc_hvl__sdlclkp_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hvl__sdlclkp_1 CLK GATE SCE VGND VNB VPB VPWR GCLK
+M1000 a_1261_133# a_495_311# VGND VNB nhv w=420000u l=500000u
++  ad=1.113e+11p pd=1.37e+06u as=5.8305e+11p ps=6.38e+06u
+M1001 GCLK a_1630_171# VGND VNB nhv w=750000u l=500000u
++  ad=1.9875e+11p pd=2.03e+06u as=0p ps=0u
+M1002 VGND SCE a_58_159# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=2.457e+11p ps=2.85e+06u
+M1003 a_1630_171# a_1261_133# VPWR VPB phv w=750000u l=500000u
++  ad=2.1e+11p pd=2.06e+06u as=1.20885e+12p ps=1.128e+07u
+M1004 a_423_71# CLK VGND VNB nhv w=420000u l=500000u
++  ad=1.113e+11p pd=1.37e+06u as=0p ps=0u
+M1005 a_1219_159# a_431_431# a_495_311# VNB nhv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=2.226e+11p ps=2.74e+06u
+M1006 VGND a_1261_133# a_1219_159# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 a_423_71# CLK VPWR VPB phv w=750000u l=500000u
++  ad=1.9875e+11p pd=2.03e+06u as=0p ps=0u
+M1008 a_495_311# a_423_71# a_58_159# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 a_1261_133# a_495_311# VPWR VPB phv w=420000u l=500000u
++  ad=1.113e+11p pd=1.37e+06u as=0p ps=0u
+M1010 VGND CLK a_1783_171# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.176e+11p ps=1.4e+06u
+M1011 a_219_457# SCE VPWR VPB phv w=750000u l=500000u
++  ad=2.1e+11p pd=2.06e+06u as=0p ps=0u
+M1012 GCLK a_1630_171# VPWR VPB phv w=1.5e+06u l=500000u
++  ad=3.975e+11p pd=3.53e+06u as=0p ps=0u
+M1013 VGND a_423_71# a_431_431# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.113e+11p ps=1.37e+06u
+M1014 VPWR a_423_71# a_431_431# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=1.9875e+11p ps=2.03e+06u
+M1015 a_1219_457# a_423_71# a_495_311# VPB phv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=3.1005e+11p ps=3.4e+06u
+M1016 VPWR a_1261_133# a_1219_457# VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 a_1783_171# a_1261_133# a_1630_171# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.113e+11p ps=1.37e+06u
+M1018 a_58_159# GATE VGND VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 a_495_311# a_431_431# a_58_159# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=2.1e+11p ps=2.06e+06u
+M1020 a_58_159# GATE a_219_457# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1021 VPWR CLK a_1630_171# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

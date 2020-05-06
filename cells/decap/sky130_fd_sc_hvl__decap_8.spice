@@ -1,0 +1,13 @@
+* NGSPICE file created from sky130_fd_sc_hvl__decap_8.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hvl__decap_8 VGND VNB VPB VPWR
+M1000 VPWR VGND VPWR VPB phv w=1e+06u l=1e+06u
++  ad=8.4e+11p pd=7.68e+06u as=0p ps=0u
+M1001 VGND VPWR VGND VNB nhv w=750000u l=1e+06u
++  ad=6.225e+11p pd=6.16e+06u as=0p ps=0u
+M1002 VPWR VGND VPWR VPB phv w=1e+06u l=1e+06u
++  ad=0p pd=0u as=0p ps=0u
+M1003 VGND VPWR VGND VNB nhv w=750000u l=1e+06u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

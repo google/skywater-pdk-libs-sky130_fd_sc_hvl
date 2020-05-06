@@ -1,0 +1,12 @@
+sky130_fd_sc_hvl__lsbufhv2lv_1	A:I LVPWR:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI7	MOSFET	Abb	Ab	VPWR	VPB	phv	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI35	MOSFET	cross1	cross2	LVPWR	LVPWR	phighvt	1	1.12	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI36	MOSFET	cross2	cross1	LVPWR	LVPWR	phighvt	1	1.12	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI34	MOSFET	X	cross2	LVPWR	LVPWR	phighvt	1	1.12	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI27	MOSFET	Ab	A	VPWR	VPB	phv	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI8	MOSFET	Abb	Ab	VGND	VNB	nhv	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI21	MOSFET	cross2	Abb	VGND	VNB	nhv	4	0.75	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI22	MOSFET	cross1	Ab	VGND	VNB	nhv	4	0.75	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI28	MOSFET	Ab	A	VGND	VNB	nhv	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI29	MOSFET	X	cross2	VGND	VNB	nshort	1	0.74	0.15	1	0.265	0.265	0.28	normal	0.063	1.14

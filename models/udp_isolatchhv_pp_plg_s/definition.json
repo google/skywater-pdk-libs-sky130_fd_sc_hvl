@@ -1,0 +1,47 @@
+{
+ "description": "Power isolating latch (for HV). Includes VPWR, LVPWR, and VGND power pins with active high sleep pin (SLEEP).",
+ "file_prefix": "sky130_fd_sc_hvl__udp_isolatchhv_pp_plg_s",
+ "library": "sky130_fd_sc_hvl",
+ "name": "udp_isolatchhv_pp$PLG$S",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "UDP_OUT",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "UDP_IN",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "signal",
+   "LVPWR",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "signal",
+   "SLEEP",
+   "input",
+   ""
+  ]
+ ],
+ "type": "primitive",
+ "verilog_name": "sky130_fd_sc_hvl__udp_isolatchhv_pp$PLG$S"
+}

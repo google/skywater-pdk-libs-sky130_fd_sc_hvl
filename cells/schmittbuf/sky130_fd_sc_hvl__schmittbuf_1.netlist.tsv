@@ -1,0 +1,12 @@
+sky130_fd_sc_hvl__schmittbuf_1	A:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula				m	w	l	isHV	nd	ng	ns	nb	mname	mult	sa	sb	sd	topography	area	perim
+rI39	RESISTOR	net069	VGND	mrdn_hv	1	0.29	1.355	TRUE												
+rI38	RESISTOR	VPWR	net32	mrdp_hv	1	0.29	3.11	TRUE												
+MI5	MOSFET				1	0.42	0.5		net32	net36	net40	VNB	nhv	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN0	MOSFET				1	0.42	0.5		net36	A	net40	VNB	nhv	1	0.265	0.265	0.28	normal	0.063	1.14
+MMN1	MOSFET				1	0.42	0.5		net40	A	VGND	VNB	nhv	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIN1	MOSFET				1	0.75	0.5		X	net36	VGND	VNB	nhv	1	0.265	0.265	0.28	normal	0.063	1.14
+MI6	MOSFET				1	0.75	0.5		net069	net36	net56	VPB	phv	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP0	MOSFET				1	0.75	0.5		VPWR	A	net56	VPB	phv	1	0.265	0.265	0.28	normal	0.063	1.14
+MMP1	MOSFET				1	0.75	0.5		net56	A	net36	VPB	phv	1	0.265	0.265	0.28	normal	0.063	1.14
+MMIP1	MOSFET				1	1.5	0.5		X	net36	VPWR	VPB	phv	1	0.265	0.265	0.28	normal	0.063	1.14

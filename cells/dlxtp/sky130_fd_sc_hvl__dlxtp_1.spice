@@ -1,0 +1,37 @@
+* NGSPICE file created from sky130_fd_sc_hvl__dlxtp_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hvl__dlxtp_1 D GATE VGND VNB VPB VPWR Q
+M1000 a_384_107# a_30_443# VGND VNB nhv w=420000u l=500000u
++  ad=1.113e+11p pd=1.37e+06u as=6.0015e+11p ps=6.43e+06u
+M1001 VPWR a_1004_81# a_1014_587# VPB phv w=420000u l=500000u
++  ad=1.2234e+12p pd=9.88e+06u as=8.82e+10p ps=1.26e+06u
+M1002 Q a_806_107# VPWR VPB phv w=1.5e+06u l=500000u
++  ad=4.275e+11p pd=3.57e+06u as=0p ps=0u
+M1003 VGND a_806_107# a_1004_81# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.113e+11p ps=1.37e+06u
+M1004 a_650_107# D VGND VNB nhv w=420000u l=500000u
++  ad=1.176e+11p pd=1.4e+06u as=0p ps=0u
+M1005 VPWR GATE a_30_443# VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=1.9875e+11p ps=2.03e+06u
+M1006 a_806_107# a_30_443# a_650_107# VPB phv w=750000u l=500000u
++  ad=2.5995e+11p pd=2.29e+06u as=2.6625e+11p ps=2.21e+06u
+M1007 a_962_107# a_30_443# a_806_107# VNB nhv w=420000u l=500000u
++  ad=8.82e+10p pd=1.26e+06u as=1.176e+11p ps=1.4e+06u
+M1008 VPWR a_806_107# a_1004_81# VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=1.197e+11p ps=1.41e+06u
+M1009 Q a_806_107# VGND VNB nhv w=750000u l=500000u
++  ad=1.9875e+11p pd=2.03e+06u as=0p ps=0u
+M1010 VGND GATE a_30_443# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=1.197e+11p ps=1.41e+06u
+M1011 a_384_107# a_30_443# VPWR VPB phv w=750000u l=500000u
++  ad=1.9875e+11p pd=2.03e+06u as=0p ps=0u
+M1012 VGND a_1004_81# a_962_107# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 a_650_107# D VPWR VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 a_1014_587# a_384_107# a_806_107# VPB phv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 a_806_107# a_384_107# a_650_107# VNB nhv w=420000u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

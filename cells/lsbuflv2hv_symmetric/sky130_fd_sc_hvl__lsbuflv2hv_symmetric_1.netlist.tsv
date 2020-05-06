@@ -1,0 +1,17 @@
+sky130_fd_sc_hvl__lsbuflv2hv_symmetric_1	A:I LVPWR:I VGND:I VNB:I VPB:I VPWR:I X:O
+Name	Formula	nd	ng	ns	nb	mname	m	w	l	mult	sa	sb	sd	topography	area	perim
+MI33	MOSFET	cross2	X_n	VPWR	VPB	phv	1	0.42	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI31	MOSFET	cross1	X_n	VPWR	VPB	phv	1	0.42	1.0	1	0.265	0.265	0.28	normal	0.063	1.14
+MI18	MOSFET	cross2	cross1	VPWR	VPB	phv	1	0.42	1.0	1	0.265	0.265	0.28	normal	0.063	1.14
+MI7	MOSFET	Abb	Ab	LVPWR	LVPWR	phighvt	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI30	MOSFET	X_n	cross1	VPWR	VPB	phv	1	1.5	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI15	MOSFET	X	X_n	VPWR	VPB	phv	1	1.5	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI19	MOSFET	cross1	cross2	VPWR	VPB	phv	2	1.5	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI27	MOSFET	Ab	A	LVPWR	LVPWR	phighvt	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI8	MOSFET	Abb	Ab	VGND	VNB	nshort	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI16	MOSFET	X	X_n	VGND	VNB	nhv	1	0.75	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI21	MOSFET	net81	Abb	VGND	VNB	nhv	2	1.5	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI22	MOSFET	cross1	Ab	VGND	VNB	nhv	2	1.5	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI32	MOSFET	cross2	X_n	net81	VNB	nhv	2	1.5	0.5	1	0.265	0.265	0.28	normal	0.063	1.14
+MI28	MOSFET	Ab	A	VGND	VNB	nshort	1	0.84	0.15	1	0.265	0.265	0.28	normal	0.063	1.14
+MI29	MOSFET	X_n	cross1	VGND	VNB	nhv	1	0.75	0.5	1	0.265	0.265	0.28	normal	0.063	1.14

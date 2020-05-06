@@ -1,0 +1,100 @@
+{
+  "area": 3.9072,
+  "cell_footprint": "diode",
+  "cell_leakage_power": 0.00333015,
+  "driver_waveform_fall": "ramp",
+  "driver_waveform_rise": "ramp",
+  "leakage_power": [
+    {
+      "value": 0.0044402,
+      "when": "DIODE"
+    },
+    {
+      "value": 0.0022201,
+      "when": "!DIODE"
+    }
+  ],
+  "pg_pin VGND": {
+    "pg_type": "primary_ground",
+    "voltage_name": "VGND"
+  },
+  "pg_pin VNB": {
+    "pg_type": "pwell",
+    "voltage_name": "VNB"
+  },
+  "pg_pin VPB": {
+    "pg_type": "nwell",
+    "voltage_name": "VPB"
+  },
+  "pg_pin VPWR": {
+    "pg_type": "primary_power",
+    "voltage_name": "VPWR"
+  },
+  "pin DIODE": {
+    "capacitance": 0.001058,
+    "direction": "input",
+    "fall_capacitance": 0.001033,
+    "internal_power": {
+      "fall_power hidden_pwr_template11": {
+        "index_1": [
+          0.0013333,
+          0.0173333,
+          0.0346667,
+          0.096,
+          0.288,
+          0.576,
+          1.1520001,
+          1.728,
+          3.33333,
+          4.16667,
+          5.0
+        ],
+        "values": [
+          0.0003545,
+          0.000382,
+          0.0004118,
+          0.0004215,
+          0.0004518,
+          0.0004513,
+          0.0004505,
+          0.0004514,
+          0.0004541,
+          0.0004553,
+          0.0004567
+        ]
+      },
+      "rise_power hidden_pwr_template11": {
+        "index_1": [
+          0.0013333,
+          0.0173333,
+          0.0346667,
+          0.096,
+          0.288,
+          0.576,
+          1.1520001,
+          1.728,
+          3.33333,
+          4.16667,
+          5.0
+        ],
+        "values": [
+          -0.0003551,
+          -0.0003854,
+          -0.0004182,
+          -0.0004265,
+          -0.0004524,
+          -0.0004519,
+          -0.0004507,
+          -0.0004516,
+          -0.0004541,
+          -0.0004555,
+          -0.0004568
+        ]
+      }
+    },
+    "max_transition": 10.0,
+    "related_ground_pin": "VGND",
+    "related_power_pin": "VPWR",
+    "rise_capacitance": 0.001084
+  }
+}

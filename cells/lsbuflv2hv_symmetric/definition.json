@@ -1,0 +1,53 @@
+{
+ "description": "Level shifting buffer, Low Voltage to High Voltage, Symmetrical.",
+ "file_prefix": "sky130_fd_sc_hvl__lsbuflv2hv_symmetric",
+ "library": "sky130_fd_sc_hvl",
+ "name": "lsbuflv2hv_symmetric",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "X",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "A",
+   "input",
+   ""
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "LVPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hvl__lsbuflv2hv_symmetric"
+}

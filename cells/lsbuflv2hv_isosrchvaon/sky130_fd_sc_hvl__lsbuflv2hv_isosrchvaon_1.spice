@@ -1,0 +1,40 @@
+* NGSPICE file created from sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon_1 A SLEEP_B LVPWR VGND VNB VPB VPWR
++ X
+M1000 a_241_1225# A a_341_183# VNB nshort w=740000u l=150000u
++  ad=2.109e+11p pd=2.05e+06u as=2.627e+11p ps=2.19e+06u
+M1001 a_188_1293# a_241_1225# a_176_993# VNB nhv w=1e+06u l=500000u
++  ad=3.46e+12p pd=2.868e+07u as=5.45e+11p ps=5.09e+06u
+M1002 LVPWR a_241_1225# a_553_1225# LVPWR phighvt w=1.12e+06u l=150000u
++  ad=7.728e+11p pd=5.86e+06u as=3.304e+11p ps=2.83e+06u
+M1003 a_188_1293# SLEEP_B a_341_183# VNB nhv w=5e+06u l=600000u
++  ad=0p pd=0u as=1.92e+12p ps=1.527e+07u
+M1004 a_188_1293# a_553_1225# a_229_967# VNB nhv w=1e+06u l=500000u
++  ad=0p pd=0u as=2.8e+11p ps=2.56e+06u
+M1005 a_176_993# a_241_1225# a_188_1293# VNB nhv w=1e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 a_229_967# a_176_993# a_341_485# VPB phv w=420000u l=2e+06u
++  ad=1.113e+11p pd=1.37e+06u as=7.1385e+11p ps=6.96e+06u
+M1007 a_341_485# a_229_967# X VPB phv w=750000u l=500000u
++  ad=0p pd=0u as=1.9875e+11p ps=2.03e+06u
+M1008 a_341_183# a_507_107# a_176_993# VNB nhv w=1e+06u l=800000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 VGND a_241_1225# a_553_1225# VNB nshort w=740000u l=150000u
++  ad=2.627e+11p pd=2.19e+06u as=2.109e+11p ps=2.05e+06u
+M1010 a_341_183# a_229_967# X VNB nhv w=750000u l=500000u
++  ad=0p pd=0u as=1.9875e+11p ps=2.03e+06u
+M1011 a_507_107# SLEEP_B a_341_183# VNB nhv w=750000u l=500000u
++  ad=1.9875e+11p pd=2.03e+06u as=0p ps=0u
+M1012 a_229_967# a_553_1225# a_188_1293# VNB nhv w=1e+06u l=500000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 a_241_1225# A LVPWR LVPWR phighvt w=1.12e+06u l=150000u
++  ad=3.304e+11p pd=2.83e+06u as=0p ps=0u
+M1014 a_341_485# a_229_967# a_176_993# VPB phv w=420000u l=2e+06u
++  ad=0p pd=0u as=1.113e+11p ps=1.37e+06u
+M1015 a_507_107# SLEEP_B a_341_485# VPB phv w=1.5e+06u l=500000u
++  ad=3.975e+11p pd=3.53e+06u as=0p ps=0u
+M1016 a_341_183# SLEEP_B a_188_1293# VNB nhv w=5e+06u l=600000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+
