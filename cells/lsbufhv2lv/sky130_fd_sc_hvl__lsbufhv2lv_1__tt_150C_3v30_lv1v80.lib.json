@@ -46,7 +46,7 @@
     ],
     "direction": "input",
     "fall_capacitance": 0.001999,
-    "input_signal_level": "vpwr",
+    "input_signal_level": "VPWR",
     "level_shifter_data_pin": "true",
     "max_transition": 3.75,
     "related_ground_pin": "VGND",
