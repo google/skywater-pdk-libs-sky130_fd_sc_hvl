@@ -48,7 +48,7 @@
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.002966,
-    "input_signal_level": "lowhvpwr",
+    "input_signal_level": "LOWHVPWR",
     "level_shifter_data_pin": "true",
     "max_transition": 3.75,
     "related_ground_pin": "VGND",

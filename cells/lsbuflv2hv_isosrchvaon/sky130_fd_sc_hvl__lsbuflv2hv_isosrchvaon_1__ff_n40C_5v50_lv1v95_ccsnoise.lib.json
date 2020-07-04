@@ -2910,7 +2910,7 @@
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.00257,
-    "input_signal_level": "lvpwr",
+    "input_signal_level": "LVPWR",
     "input_voltage": "GENERAL",
     "internal_power": {
       "fall_power power_inputs_1": {

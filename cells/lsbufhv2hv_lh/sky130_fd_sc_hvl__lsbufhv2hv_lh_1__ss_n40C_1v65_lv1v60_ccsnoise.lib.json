@@ -1473,7 +1473,7 @@
     },
     "clock": "false",
     "direction": "input",
-    "input_signal_level": "lowhvpwr",
+    "input_signal_level": "LOWHVPWR",
     "input_voltage": "GENERAL",
     "level_shifter_data_pin": "true",
     "max_transition": 3.75,
