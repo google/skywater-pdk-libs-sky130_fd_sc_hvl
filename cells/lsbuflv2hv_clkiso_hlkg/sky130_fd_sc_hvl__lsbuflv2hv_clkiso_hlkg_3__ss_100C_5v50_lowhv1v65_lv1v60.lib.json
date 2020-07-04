@@ -58,7 +58,7 @@
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.004704,
-    "input_signal_level": "lvpwr",
+    "input_signal_level": "LVPWR",
     "internal_power": {
       "fall_power power_inputs_1": {
         "index_1": [

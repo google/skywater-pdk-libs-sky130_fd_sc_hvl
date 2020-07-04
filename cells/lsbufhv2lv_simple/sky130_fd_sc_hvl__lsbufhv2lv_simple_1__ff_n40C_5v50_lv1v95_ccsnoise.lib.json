@@ -1474,7 +1474,7 @@
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.002382,
-    "input_signal_level": "vpwr",
+    "input_signal_level": "VPWR",
     "input_voltage": "GENERAL",
     "level_shifter_data_pin": "true",
     "max_transition": 7.5,
