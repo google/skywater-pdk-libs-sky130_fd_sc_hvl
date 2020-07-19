@@ -1,10 +1,10 @@
 {
   "area": 78.144,
-  "cell_footprint": "sdfrtp",
+  "cell_footprint": "sky130_fd_sc_hvl__sdfrtp",
   "cell_leakage_power": 0.5940172,
   "driver_waveform_fall": "ramp",
   "driver_waveform_rise": "ramp",
-  "ff IQ,IQ_N": {
+  "ff,IQ,IQ_N": {
     "clear": "!RESET_B",
     "clocked_on": "CLK",
     "next_state": "(D&!SCE) | (SCD&SCE)"
@@ -139,29 +139,29 @@
       "when": "!D&SCD&SCE&RESET_B&CLK"
     }
   ],
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "voltage_name": "VPWR"
   },
-  "pin CLK": {
+  "pin,CLK": {
     "capacitance": 0.002561,
     "clock": "true",
     "direction": "input",
     "fall_capacitance": 0.002577,
     "internal_power": {
-      "fall_power hidden_pwr_template11": {
+      "fall_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -189,7 +189,7 @@
           1.517176
         ]
       },
-      "rise_power hidden_pwr_template11": {
+      "rise_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -225,13 +225,13 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.002545
   },
-  "pin D": {
+  "pin,D": {
     "capacitance": 0.002283,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.002192,
     "internal_power": {
-      "fall_power hidden_pwr_template11": {
+      "fall_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -259,7 +259,7 @@
           0.6286028
         ]
       },
-      "rise_power hidden_pwr_template11": {
+      "rise_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -295,7 +295,7 @@
     "rise_capacitance": 0.002373,
     "timing": [
       {
-        "fall_constraint vio_11_11_1": {
+        "fall_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -469,7 +469,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_constraint vio_11_11_1": {
+        "rise_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -647,7 +647,7 @@
         "violation_delay_degrade_pct": 10
       },
       {
-        "fall_constraint vio_11_11_1": {
+        "fall_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -821,7 +821,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_constraint vio_11_11_1": {
+        "rise_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -1000,12 +1000,12 @@
       }
     ]
   },
-  "pin Q": {
+  "pin,Q": {
     "direction": "output",
     "function": "IQ",
     "internal_power": [
       {
-        "fall_power pwr_template11x26": {
+        "fall_power,pwr_template11x26": {
           "index_1": [
             0.001,
             0.013,
@@ -1359,14 +1359,14 @@
           ]
         },
         "related_pin": "RESET_B",
-        "rise_power scalar": {
+        "rise_power,scalar": {
           "values": [
             0.0
           ]
         }
       },
       {
-        "fall_power pwr_template11x26": {
+        "fall_power,pwr_template11x26": {
           "index_1": [
             0.001,
             0.013,
@@ -1720,7 +1720,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_power pwr_template11x26": {
+        "rise_power,pwr_template11x26": {
           "index_1": [
             0.001,
             0.013,
@@ -2082,7 +2082,7 @@
     "related_power_pin": "VPWR",
     "timing": [
       {
-        "cell_fall delay_template11x26": {
+        "cell_fall,delay_template11x26": {
           "index_1": [
             0.001,
             0.013,
@@ -2435,7 +2435,7 @@
             ]
           ]
         },
-        "fall_transition delay_template11x26": {
+        "fall_transition,delay_template11x26": {
           "index_1": [
             0.001,
             0.013,
@@ -2793,7 +2793,7 @@
         "timing_type": "clear"
       },
       {
-        "cell_fall delay_template11x26": {
+        "cell_fall,delay_template11x26": {
           "index_1": [
             0.001,
             0.013,
@@ -3146,7 +3146,7 @@
             ]
           ]
         },
-        "cell_rise delay_template11x26": {
+        "cell_rise,delay_template11x26": {
           "index_1": [
             0.001,
             0.013,
@@ -3499,7 +3499,7 @@
             ]
           ]
         },
-        "fall_transition delay_template11x26": {
+        "fall_transition,delay_template11x26": {
           "index_1": [
             0.001,
             0.013,
@@ -3853,7 +3853,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_transition delay_template11x26": {
+        "rise_transition,delay_template11x26": {
           "index_1": [
             0.001,
             0.013,
@@ -4211,13 +4211,13 @@
       }
     ]
   },
-  "pin RESET_B": {
+  "pin,RESET_B": {
     "capacitance": 0.00792,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.008035,
     "internal_power": {
-      "fall_power hidden_pwr_template11": {
+      "fall_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -4245,7 +4245,7 @@
           0.0906135
         ]
       },
-      "rise_power hidden_pwr_template11": {
+      "rise_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -4280,7 +4280,7 @@
     "rise_capacitance": 0.007804,
     "timing": [
       {
-        "fall_constraint pulse_width_template3": {
+        "fall_constraint,pulse_width_template3": {
           "index_1": [
             0.01,
             1.5,
@@ -4300,7 +4300,7 @@
       },
       {
         "related_pin": "CLK",
-        "rise_constraint vio_11_11_1": {
+        "rise_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -4479,7 +4479,7 @@
       },
       {
         "related_pin": "CLK",
-        "rise_constraint vio_11_11_1": {
+        "rise_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -4658,13 +4658,13 @@
       }
     ]
   },
-  "pin SCD": {
+  "pin,SCD": {
     "capacitance": 0.002627,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.002581,
     "internal_power": {
-      "fall_power hidden_pwr_template11": {
+      "fall_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -4692,7 +4692,7 @@
           0.0314862
         ]
       },
-      "rise_power hidden_pwr_template11": {
+      "rise_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -4728,7 +4728,7 @@
     "rise_capacitance": 0.002673,
     "timing": [
       {
-        "fall_constraint vio_11_11_1": {
+        "fall_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -4902,7 +4902,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_constraint vio_11_11_1": {
+        "rise_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -5080,7 +5080,7 @@
         "violation_delay_degrade_pct": 10
       },
       {
-        "fall_constraint vio_11_11_1": {
+        "fall_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -5254,7 +5254,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_constraint vio_11_11_1": {
+        "rise_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -5433,13 +5433,13 @@
       }
     ]
   },
-  "pin SCE": {
+  "pin,SCE": {
     "capacitance": 0.004913,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.00464,
     "internal_power": {
-      "fall_power hidden_pwr_template11": {
+      "fall_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -5467,7 +5467,7 @@
           0.948425
         ]
       },
-      "rise_power hidden_pwr_template11": {
+      "rise_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -5503,7 +5503,7 @@
     "rise_capacitance": 0.005186,
     "timing": [
       {
-        "fall_constraint vio_11_11_1": {
+        "fall_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -5677,7 +5677,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_constraint vio_11_11_1": {
+        "rise_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -5855,7 +5855,7 @@
         "violation_delay_degrade_pct": 10
       },
       {
-        "fall_constraint vio_11_11_1": {
+        "fall_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -6029,7 +6029,7 @@
           ]
         },
         "related_pin": "CLK",
-        "rise_constraint vio_11_11_1": {
+        "rise_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -6209,30 +6209,30 @@
     ]
   },
   "test_cell": {
-    "ff IQ,IQ_N": {
+    "ff,IQ,IQ_N": {
       "clear": "!RESET_B",
       "clocked_on": "CLK",
       "next_state": "D"
     },
-    "pin CLK": {
+    "pin,CLK": {
       "direction": "input"
     },
-    "pin D": {
+    "pin,D": {
       "direction": "input"
     },
-    "pin Q": {
+    "pin,Q": {
       "direction": "output",
       "function": "IQ",
       "signal_type": "test_scan_out"
     },
-    "pin RESET_B": {
+    "pin,RESET_B": {
       "direction": "input"
     },
-    "pin SCD": {
+    "pin,SCD": {
       "direction": "input",
       "signal_type": "test_scan_in"
     },
-    "pin SCE": {
+    "pin,SCE": {
       "direction": "input",
       "signal_type": "test_scan_enable"
     }
