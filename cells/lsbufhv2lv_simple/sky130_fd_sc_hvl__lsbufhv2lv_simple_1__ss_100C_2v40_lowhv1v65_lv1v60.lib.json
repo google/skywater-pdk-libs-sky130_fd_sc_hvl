@@ -1,34 +1,34 @@
 {
   "area": 70.3296,
-  "cell_footprint": "lsbufhv2lv_simple",
+  "cell_footprint": "sky130_fd_sc_hvl__lsbufhv2lv_simple",
   "cell_leakage_power": 0.0,
   "is_level_shifter": "true",
   "level_shifter_type": "HL",
-  "pg_pin LVPWR": {
+  "pg_pin,LVPWR": {
     "pg_type": "primary_power",
     "voltage_name": "LVPWR"
   },
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "std_cell_main_rail": "true",
     "voltage_name": "VPWR"
   },
-  "pin A": {
+  "pin,A": {
     "capacitance": 0.00244,
     "clock": "false",
-    "comp_attribute input_voltage_range": [
+    "comp_attribute,input_voltage_range": [
       1.32,
       5.5
     ],
@@ -39,15 +39,15 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR"
   },
-  "pin X": {
-    "comp_attribute output_voltage_range": [
+  "pin,X": {
+    "comp_attribute,output_voltage_range": [
       1.0,
       1.95
     ],
     "direction": "output",
     "function": "A",
     "internal_power": {
-      "fall_power pwr_template15x7": {
+      "fall_power,pwr_template15x7": {
         "index_1": [
           0.001,
           0.013,
@@ -213,7 +213,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_power pwr_template15x7": {
+      "rise_power,pwr_template15x7": {
         "index_1": [
           0.001,
           0.013,
@@ -384,7 +384,7 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "LVPWR",
     "timing": {
-      "cell_fall delay_template15x7": {
+      "cell_fall,delay_template15x7": {
         "index_1": [
           0.001,
           0.013,
@@ -549,7 +549,7 @@
           ]
         ]
       },
-      "cell_rise delay_template15x7": {
+      "cell_rise,delay_template15x7": {
         "index_1": [
           0.001,
           0.013,
@@ -714,7 +714,7 @@
           ]
         ]
       },
-      "fall_transition delay_template15x7": {
+      "fall_transition,delay_template15x7": {
         "index_1": [
           0.001,
           0.013,
@@ -880,7 +880,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_transition delay_template15x7": {
+      "rise_transition,delay_template15x7": {
         "index_1": [
           0.001,
           0.013,

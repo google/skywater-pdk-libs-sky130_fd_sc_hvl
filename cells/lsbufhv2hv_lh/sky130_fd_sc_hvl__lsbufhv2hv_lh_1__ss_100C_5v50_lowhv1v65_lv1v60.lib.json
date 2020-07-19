@@ -1,12 +1,12 @@
 {
   "area": 85.9584,
-  "cell_footprint": "lsbufhv2hv_lh",
+  "cell_footprint": "sky130_fd_sc_hvl__lsbufhv2hv_lh",
   "cell_leakage_power": 2569.567,
-  "comp_attribute input_voltage_range": [
+  "comp_attribute,input_voltage_range": [
     1.32,
     5.5
   ],
-  "comp_attribute output_voltage_range": [
+  "comp_attribute,output_voltage_range": [
     1.65,
     5.5
   ],
@@ -24,28 +24,28 @@
     }
   ],
   "level_shifter_type": "LH",
-  "pg_pin LOWHVPWR": {
+  "pg_pin,LOWHVPWR": {
     "pg_type": "primary_power",
     "voltage_name": "LOWHVPWR"
   },
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "std_cell_main_rail": "true",
     "voltage_name": "VPWR"
   },
-  "pin A": {
+  "pin,A": {
     "capacitance": 0.002557,
     "clock": "false",
     "direction": "input",
@@ -57,11 +57,11 @@
     "related_power_pin": "LOWHVPWR",
     "rise_capacitance": 0.002576
   },
-  "pin X": {
+  "pin,X": {
     "direction": "output",
     "function": "A",
     "internal_power": {
-      "fall_power power_outputs_5": {
+      "fall_power,power_outputs_5": {
         "index_1": [
           0.001,
           0.013,
@@ -211,7 +211,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_power power_outputs_5": {
+      "rise_power,power_outputs_5": {
         "index_1": [
           0.001,
           0.013,
@@ -367,7 +367,7 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR",
     "timing": {
-      "cell_fall del_1_11_9": {
+      "cell_fall,del_1_11_9": {
         "index_1": [
           0.001,
           0.013,
@@ -516,7 +516,7 @@
           ]
         ]
       },
-      "cell_rise del_1_11_9": {
+      "cell_rise,del_1_11_9": {
         "index_1": [
           0.001,
           0.013,
@@ -665,7 +665,7 @@
           ]
         ]
       },
-      "fall_transition del_1_11_9": {
+      "fall_transition,del_1_11_9": {
         "index_1": [
           0.001,
           0.013,
@@ -815,7 +815,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_transition del_1_11_9": {
+      "rise_transition,del_1_11_9": {
         "index_1": [
           0.001,
           0.013,

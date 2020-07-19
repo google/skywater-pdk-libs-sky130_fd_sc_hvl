@@ -1,10 +1,10 @@
 {
   "area": 33.2112,
-  "cell_footprint": "dlxtp",
+  "cell_footprint": "sky130_fd_sc_hvl__dlxtp",
   "cell_leakage_power": 10.00875,
   "driver_waveform_fall": "ramp",
   "driver_waveform_rise": "ramp",
-  "latch IQ,IQ_N": {
+  "latch,IQ,IQ_N": {
     "data_in": "D",
     "enable": "GATE"
   },
@@ -26,29 +26,29 @@
       "when": "D&!GATE"
     }
   ],
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "voltage_name": "VPWR"
   },
-  "pin D": {
+  "pin,D": {
     "capacitance": 0.002687,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.002588,
     "internal_power": {
-      "fall_power hidden_pwr_template11": {
+      "fall_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -76,7 +76,7 @@
           1.5194756
         ]
       },
-      "rise_power hidden_pwr_template11": {
+      "rise_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -111,7 +111,7 @@
     "rise_capacitance": 0.002785,
     "timing": [
       {
-        "fall_constraint vio_11_11_1": {
+        "fall_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -285,7 +285,7 @@
           ]
         },
         "related_pin": "GATE",
-        "rise_constraint vio_11_11_1": {
+        "rise_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -463,7 +463,7 @@
         "violation_delay_degrade_pct": 10
       },
       {
-        "fall_constraint vio_11_11_1": {
+        "fall_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -637,7 +637,7 @@
           ]
         },
         "related_pin": "GATE",
-        "rise_constraint vio_11_11_1": {
+        "rise_constraint,vio_11_11_1": {
           "index_1": [
             0.001,
             0.013,
@@ -816,13 +816,13 @@
       }
     ]
   },
-  "pin GATE": {
+  "pin,GATE": {
     "capacitance": 0.002584,
     "clock": "true",
     "direction": "input",
     "fall_capacitance": 0.002519,
     "internal_power": {
-      "fall_power hidden_pwr_template11": {
+      "fall_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -850,7 +850,7 @@
           1.8674004
         ]
       },
-      "rise_power hidden_pwr_template11": {
+      "rise_power,hidden_pwr_template11": {
         "index_1": [
           0.001,
           0.013,
@@ -885,12 +885,12 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.002649
   },
-  "pin Q": {
+  "pin,Q": {
     "direction": "output",
     "function": "IQ",
     "internal_power": [
       {
-        "fall_power pwr_template11x8": {
+        "fall_power,pwr_template11x8": {
           "index_1": [
             0.001,
             0.013,
@@ -1028,7 +1028,7 @@
           ]
         },
         "related_pin": "D",
-        "rise_power pwr_template11x8": {
+        "rise_power,pwr_template11x8": {
           "index_1": [
             0.001,
             0.013,
@@ -1167,7 +1167,7 @@
         }
       },
       {
-        "fall_power pwr_template11x8": {
+        "fall_power,pwr_template11x8": {
           "index_1": [
             0.001,
             0.013,
@@ -1305,7 +1305,7 @@
           ]
         },
         "related_pin": "GATE",
-        "rise_power pwr_template11x8": {
+        "rise_power,pwr_template11x8": {
           "index_1": [
             0.001,
             0.013,
@@ -1451,7 +1451,7 @@
     "related_power_pin": "VPWR",
     "timing": [
       {
-        "cell_fall delay_template11x8": {
+        "cell_fall,delay_template11x8": {
           "index_1": [
             0.001,
             0.013,
@@ -1588,7 +1588,7 @@
             ]
           ]
         },
-        "cell_rise delay_template11x8": {
+        "cell_rise,delay_template11x8": {
           "index_1": [
             0.001,
             0.013,
@@ -1725,7 +1725,7 @@
             ]
           ]
         },
-        "fall_transition delay_template11x8": {
+        "fall_transition,delay_template11x8": {
           "index_1": [
             0.001,
             0.013,
@@ -1863,7 +1863,7 @@
           ]
         },
         "related_pin": "D",
-        "rise_transition delay_template11x8": {
+        "rise_transition,delay_template11x8": {
           "index_1": [
             0.001,
             0.013,
@@ -2003,7 +2003,7 @@
         "timing_sense": "positive_unate"
       },
       {
-        "cell_fall delay_template11x8": {
+        "cell_fall,delay_template11x8": {
           "index_1": [
             0.001,
             0.013,
@@ -2140,7 +2140,7 @@
             ]
           ]
         },
-        "cell_rise delay_template11x8": {
+        "cell_rise,delay_template11x8": {
           "index_1": [
             0.001,
             0.013,
@@ -2277,7 +2277,7 @@
             ]
           ]
         },
-        "fall_transition delay_template11x8": {
+        "fall_transition,delay_template11x8": {
           "index_1": [
             0.001,
             0.013,
@@ -2415,7 +2415,7 @@
           ]
         },
         "related_pin": "GATE",
-        "rise_transition delay_template11x8": {
+        "rise_transition,delay_template11x8": {
           "index_1": [
             0.001,
             0.013,

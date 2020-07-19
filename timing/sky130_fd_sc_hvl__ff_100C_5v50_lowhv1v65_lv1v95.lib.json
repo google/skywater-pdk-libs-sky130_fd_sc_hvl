@@ -1,6 +1,6 @@
 {
   "clk_width": 4e-08,
-  "comp_attribute voltage_map": [
+  "comp_attribute,voltage_map": [
     [
       "LOWHVPWR",
       1.65
@@ -28,6 +28,7 @@
   ],
   "default_arc_mode": "worst_edges",
   "default_fanout_load": 0.0,
+  "default_operating_conditions": "ff_100C_5v50_lowhv1v65_lv1v95",
   "define": [
     {
       "attribute_name": "switching_power_split_model",
@@ -82,8 +83,7 @@
   ],
   "driver_model": "ramp",
   "leakage_power_unit": "1nW",
-  "leakage_sim_opt": "runlvl=5 accurate=1 method=gear absh=1e-14 absmos=1e-12 relmos=0.01 absi=1e-5 runlvl=5 accurate=1 method=bdf kcltest=1 runlvl=5 accurate=1 method=bdf kcltest=1 runlvl=5 accurate=1 method=bdf kcltest=1 runlvl=5 accurate=1 method=bdf kcltest=1 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15",
-  "lu_table_template del_1_11_7": {
+  "lu_table_template,del_1_11_7": {
     "index_1": [
       1,
       2,
@@ -109,7 +109,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template del_1_11_9": {
+  "lu_table_template,del_1_11_9": {
     "index_1": [
       1,
       2,
@@ -137,7 +137,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template del_1_13_9": {
+  "lu_table_template,del_1_13_9": {
     "index_1": [
       1,
       2,
@@ -167,7 +167,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template del_1_15_7": {
+  "lu_table_template,del_1_15_7": {
     "index_1": [
       1,
       2,
@@ -197,7 +197,7 @@
     "variable_1": "input_net_transition",
     "variable_2": "total_output_net_capacitance"
   },
-  "lu_table_template del_1_15_9": {
+  "lu_table_template,del_1_15_9": {
     "index_1": [
       1,
       2,
@@ -231,7 +231,7 @@
   },
   "nom_temperature": 100.0,
   "nom_voltage": 5.5,
-  "normalized_driver_waveform driver_waveform_template": {
+  "normalized_driver_waveform,driver_waveform_template": {
     "driver_waveform_name": "ramp",
     "index_1": [
       0.001,
@@ -417,13 +417,13 @@
       ]
     ]
   },
-  "operating_conditions ff_100C_5v50": {
+  "operating_conditions,ff_100C_5v50": {
     "process": 1.0,
     "temperature": 100.0,
     "tree_type": "balanced_tree",
     "voltage": 5.5
   },
-  "power_lut_template power_inputs_1": {
+  "power_lut_template,power_inputs_1": {
     "index_1": [
       1,
       2,
@@ -439,7 +439,7 @@
     ],
     "variable_1": "input_transition_time"
   },
-  "power_lut_template power_outputs_1": {
+  "power_lut_template,power_outputs_1": {
     "index_1": [
       1,
       2,
@@ -469,7 +469,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template power_outputs_2": {
+  "power_lut_template,power_outputs_2": {
     "index_1": [
       1,
       2,
@@ -499,7 +499,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template power_outputs_3": {
+  "power_lut_template,power_outputs_3": {
     "index_1": [
       1,
       2,
@@ -531,7 +531,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template power_outputs_4": {
+  "power_lut_template,power_outputs_4": {
     "index_1": [
       1,
       2,
@@ -557,7 +557,7 @@
     "variable_1": "input_transition_time",
     "variable_2": "total_output_net_capacitance"
   },
-  "power_lut_template power_outputs_5": {
+  "power_lut_template,power_outputs_5": {
     "index_1": [
       1,
       2,

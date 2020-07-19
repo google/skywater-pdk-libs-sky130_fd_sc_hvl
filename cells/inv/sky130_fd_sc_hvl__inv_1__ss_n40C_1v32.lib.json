@@ -1,6 +1,6 @@
 {
   "area": 5.8608,
-  "cell_footprint": "inv",
+  "cell_footprint": "sky130_fd_sc_hvl__inv",
   "cell_leakage_power": 0.003485798,
   "driver_waveform_fall": "ramp",
   "driver_waveform_rise": "ramp",
@@ -14,23 +14,23 @@
       "when": "!A"
     }
   ],
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "voltage_name": "VPWR"
   },
-  "pin A": {
+  "pin,A": {
     "capacitance": 0.002955,
     "clock": "false",
     "direction": "input",
@@ -40,11 +40,11 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.002963
   },
-  "pin Y": {
+  "pin,Y": {
     "direction": "output",
     "function": "(!A)",
     "internal_power": {
-      "fall_power pwr_template11x16": {
+      "fall_power,pwr_template11x16": {
         "index_1": [
           0.0013333,
           0.0173333,
@@ -278,7 +278,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_power pwr_template11x16": {
+      "rise_power,pwr_template11x16": {
         "index_1": [
           0.0013333,
           0.0173333,
@@ -518,7 +518,7 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "VPWR",
     "timing": {
-      "cell_fall delay_template11x16": {
+      "cell_fall,delay_template11x16": {
         "index_1": [
           0.0013333,
           0.0173333,
@@ -751,7 +751,7 @@
           ]
         ]
       },
-      "cell_rise delay_template11x16": {
+      "cell_rise,delay_template11x16": {
         "index_1": [
           0.0013333,
           0.0173333,
@@ -984,7 +984,7 @@
           ]
         ]
       },
-      "fall_transition delay_template11x16": {
+      "fall_transition,delay_template11x16": {
         "index_1": [
           0.0013333,
           0.0173333,
@@ -1218,7 +1218,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_transition delay_template11x16": {
+      "rise_transition,delay_template11x16": {
         "index_1": [
           0.0013333,
           0.0173333,

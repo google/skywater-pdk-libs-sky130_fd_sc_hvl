@@ -1,12 +1,12 @@
 {
   "area": 70.3296,
-  "cell_footprint": "lsbufhv2hv_hl",
+  "cell_footprint": "sky130_fd_sc_hvl__lsbufhv2hv_hl",
   "cell_leakage_power": 0.1458449,
-  "comp_attribute input_voltage_range": [
+  "comp_attribute,input_voltage_range": [
     1.65,
     5.5
   ],
-  "comp_attribute output_voltage_range": [
+  "comp_attribute,output_voltage_range": [
     1.0,
     5.5
   ],
@@ -22,28 +22,28 @@
     }
   ],
   "level_shifter_type": "HL",
-  "pg_pin LOWHVPWR": {
+  "pg_pin,LOWHVPWR": {
     "pg_type": "primary_power",
     "voltage_name": "LOWHVPWR"
   },
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "std_cell_main_rail": "true",
     "voltage_name": "VPWR"
   },
-  "pin A": {
+  "pin,A": {
     "capacitance": 0.002704,
     "clock": "false",
     "direction": "input",
@@ -56,11 +56,11 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.002787
   },
-  "pin X": {
+  "pin,X": {
     "direction": "output",
     "function": "A",
     "internal_power": {
-      "fall_power power_outputs_3": {
+      "fall_power,power_outputs_3": {
         "index_1": [
           0.001,
           0.013,
@@ -186,7 +186,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_power power_outputs_3": {
+      "rise_power,power_outputs_3": {
         "index_1": [
           0.001,
           0.013,
@@ -320,7 +320,7 @@
     "related_power_pin": "LOWHVPWR",
     "timing": {
       "ccsn_first_stage": {
-        "dc_current ccsn_dc": {
+        "dc_current,ccsn_dc": {
           "index_1": [
             -5.5,
             -2.75,
@@ -1290,7 +1290,7 @@
         "miller_cap_fall": 0.001098,
         "miller_cap_rise": 0.000759,
         "output_voltage_fall": {
-          "vector ccsn_ovrf": [
+          "vector,ccsn_ovrf": [
             {
               "index_1": [
                 0.01
@@ -1338,7 +1338,7 @@
           ]
         },
         "output_voltage_rise": {
-          "vector ccsn_ovrf": [
+          "vector,ccsn_ovrf": [
             {
               "index_1": [
                 0.01
@@ -1386,7 +1386,7 @@
           ]
         },
         "propagated_noise_high": {
-          "vector ccsn_pnlh": [
+          "vector,ccsn_pnlh": [
             {
               "index_1": [
                 2.25907116372617
@@ -1565,7 +1565,7 @@
           ]
         },
         "propagated_noise_low": {
-          "vector ccsn_pnlh": [
+          "vector,ccsn_pnlh": [
             {
               "index_1": [
                 2.8358909709214
@@ -1746,7 +1746,7 @@
         "stage_type": "both"
       },
       "ccsn_last_stage": {
-        "dc_current ccsn_dc": {
+        "dc_current,ccsn_dc": {
           "index_1": [
             -5.5,
             -2.75,
@@ -2716,7 +2716,7 @@
         "miller_cap_fall": 0.001615,
         "miller_cap_rise": 0.001,
         "output_voltage_fall": {
-          "vector ccsn_ovrf": [
+          "vector,ccsn_ovrf": [
             {
               "index_1": [
                 0.01
@@ -2808,7 +2808,7 @@
           ]
         },
         "output_voltage_rise": {
-          "vector ccsn_ovrf": [
+          "vector,ccsn_ovrf": [
             {
               "index_1": [
                 0.01
@@ -2900,7 +2900,7 @@
           ]
         },
         "propagated_noise_high": {
-          "vector ccsn_pnlh": [
+          "vector,ccsn_pnlh": [
             {
               "index_1": [
                 2.4813645161808
@@ -3079,7 +3079,7 @@
           ]
         },
         "propagated_noise_low": {
-          "vector ccsn_pnlh": [
+          "vector,ccsn_pnlh": [
             {
               "index_1": [
                 2.65787938522685
@@ -3259,7 +3259,7 @@
         },
         "stage_type": "both"
       },
-      "cell_fall del_1_11_7": {
+      "cell_fall,del_1_11_7": {
         "index_1": [
           0.001,
           0.013,
@@ -3384,7 +3384,7 @@
           ]
         ]
       },
-      "cell_rise del_1_11_7": {
+      "cell_rise,del_1_11_7": {
         "index_1": [
           0.001,
           0.013,
@@ -3509,7 +3509,7 @@
           ]
         ]
       },
-      "fall_transition del_1_11_7": {
+      "fall_transition,del_1_11_7": {
         "index_1": [
           0.001,
           0.013,
@@ -3635,7 +3635,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_transition del_1_11_7": {
+      "rise_transition,del_1_11_7": {
         "index_1": [
           0.001,
           0.013,
