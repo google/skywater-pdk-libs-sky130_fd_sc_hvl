@@ -1,6 +1,6 @@
 {
   "area": 70.3296,
-  "cell_footprint": "lsbufhv2hv_hl",
+  "cell_footprint": "sky130_fd_sc_hvl__lsbufhv2hv_hl",
   "cell_leakage_power": 0.145845,
   "is_level_shifter": "true",
   "leakage_power": [
@@ -14,31 +14,31 @@
     }
   ],
   "level_shifter_type": "HL",
-  "pg_pin LOWHVPWR": {
+  "pg_pin,LOWHVPWR": {
     "pg_type": "primary_power",
     "voltage_name": "LOWHVPWR"
   },
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "std_cell_main_rail": "true",
     "voltage_name": "VPWR"
   },
-  "pin A": {
+  "pin,A": {
     "capacitance": 0.002842,
     "clock": "false",
-    "comp_attribute input_voltage_range": [
+    "comp_attribute,input_voltage_range": [
       1.32,
       5.5
     ],
@@ -51,15 +51,15 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.002925
   },
-  "pin X": {
-    "comp_attribute output_voltage_range": [
+  "pin,X": {
+    "comp_attribute,output_voltage_range": [
       1.0,
       5.5
     ],
     "direction": "output",
     "function": "A",
     "internal_power": {
-      "fall_power pwr_template11x7": {
+      "fall_power,pwr_template11x7": {
         "index_1": [
           0.0013333,
           0.0173333,
@@ -185,7 +185,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_power pwr_template11x7": {
+      "rise_power,pwr_template11x7": {
         "index_1": [
           0.0013333,
           0.0173333,
@@ -317,7 +317,7 @@
     "related_ground_pin": "VGND",
     "related_power_pin": "LOWHVPWR",
     "timing": {
-      "cell_fall delay_template11x7": {
+      "cell_fall,delay_template11x7": {
         "index_1": [
           0.0013333,
           0.0173333,
@@ -442,7 +442,7 @@
           ]
         ]
       },
-      "cell_rise delay_template11x7": {
+      "cell_rise,delay_template11x7": {
         "index_1": [
           0.0013333,
           0.0173333,
@@ -567,7 +567,7 @@
           ]
         ]
       },
-      "fall_transition delay_template11x7": {
+      "fall_transition,delay_template11x7": {
         "index_1": [
           0.0013333,
           0.0173333,
@@ -693,7 +693,7 @@
         ]
       },
       "related_pin": "A",
-      "rise_transition delay_template11x7": {
+      "rise_transition,delay_template11x7": {
         "index_1": [
           0.0013333,
           0.0173333,
