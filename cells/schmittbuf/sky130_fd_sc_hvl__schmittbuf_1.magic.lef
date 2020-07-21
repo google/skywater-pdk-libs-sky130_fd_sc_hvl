@@ -152,3 +152,4 @@ MACRO sky130_fd_sc_hvl__schmittbuf_1
       RECT 4.410000 0.425000 4.580000 0.595000 ;
   END
 END sky130_fd_sc_hvl__schmittbuf_1
+END LIBRARY

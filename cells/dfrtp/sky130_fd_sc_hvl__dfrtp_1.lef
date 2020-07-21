@@ -365,3 +365,4 @@ MACRO sky130_fd_sc_hvl__dfrtp_1
       RECT 9.695000 2.105000 9.985000 2.150000 ;
   END
 END sky130_fd_sc_hvl__dfrtp_1
+END LIBRARY

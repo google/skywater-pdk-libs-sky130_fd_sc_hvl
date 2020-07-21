@@ -249,3 +249,4 @@ MACRO sky130_fd_sc_hvl__probec_p_8
       RECT 9.640000 3.485000 9.960000 3.805000 ;
   END
 END sky130_fd_sc_hvl__probec_p_8
+END LIBRARY
