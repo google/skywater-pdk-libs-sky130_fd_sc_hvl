@@ -46,6 +46,8 @@ MACRO sky130_fd_sc_hvl__fill_1
         RECT 0.000000 -0.085000 0.480000 0.085000 ;
       LAYER mcon ;
         RECT 0.155000 -0.085000 0.325000 0.085000 ;
+    END
+    PORT
       LAYER met1 ;
         RECT 0.000000 -0.115000 0.480000 0.115000 ;
     END
@@ -58,6 +60,8 @@ MACRO sky130_fd_sc_hvl__fill_1
         RECT 0.000000 3.985000 0.480000 4.155000 ;
       LAYER mcon ;
         RECT 0.155000 3.985000 0.325000 4.155000 ;
+    END
+    PORT
       LAYER met1 ;
         RECT 0.000000 3.955000 0.480000 4.185000 ;
     END
