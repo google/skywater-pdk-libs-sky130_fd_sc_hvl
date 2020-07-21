@@ -331,3 +331,4 @@ MACRO sky130_fd_sc_hvl__inv_16
       RECT 13.115000  3.985000 13.285000 4.155000 ;
   END
 END sky130_fd_sc_hvl__inv_16
+END LIBRARY

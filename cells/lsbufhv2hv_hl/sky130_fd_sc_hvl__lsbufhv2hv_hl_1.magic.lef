@@ -152,3 +152,4 @@ MACRO sky130_fd_sc_hvl__lsbufhv2hv_hl_1
       RECT 0.000000  3.445000 8.640000 3.815000 ;
   END
 END sky130_fd_sc_hvl__lsbufhv2hv_hl_1
+END LIBRARY
