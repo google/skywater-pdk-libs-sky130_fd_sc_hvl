@@ -289,3 +289,4 @@ MACRO sky130_fd_sc_hvl__sdfxtp_1
       RECT 14.590000  3.505000 14.760000 3.675000 ;
   END
 END sky130_fd_sc_hvl__sdfxtp_1
+END LIBRARY

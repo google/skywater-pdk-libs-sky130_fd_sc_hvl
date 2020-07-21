@@ -198,3 +198,4 @@ MACRO sky130_fd_sc_hvl__buf_8
       RECT 9.335000  0.380000 9.505000 0.550000 ;
   END
 END sky130_fd_sc_hvl__buf_8
+END LIBRARY

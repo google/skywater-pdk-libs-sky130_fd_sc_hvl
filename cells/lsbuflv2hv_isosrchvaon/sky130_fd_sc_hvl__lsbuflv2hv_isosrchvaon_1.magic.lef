@@ -247,3 +247,4 @@ MACRO sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon_1
       RECT 0.000000  3.445000 13.920000 3.815000 ;
   END
 END sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon_1
+END LIBRARY
