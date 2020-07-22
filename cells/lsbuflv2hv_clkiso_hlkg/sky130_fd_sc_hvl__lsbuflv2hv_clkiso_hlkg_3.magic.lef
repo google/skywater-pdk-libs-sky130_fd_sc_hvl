@@ -29,7 +29,6 @@ SITE unithvdbl
 END unithvdbl
 MACRO sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg_3
   CLASS CORE ;
-  SOURCE USER ;
   FOREIGN sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg_3 ;
   ORIGIN  0.000000  0.000000 ;
   SIZE  24.96000 BY  8.140000 ;
