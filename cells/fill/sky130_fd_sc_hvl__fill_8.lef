@@ -24,7 +24,7 @@ SITE unithvdbl
     SIZE  0.480 BY 8.140 ;
 END unithvdbl
 MACRO sky130_fd_sc_hvl__fill_8
-  CLASS CORE ;
+  CLASS CORE SPACER ;
   SOURCE USER ;
   ORIGIN  0.000000  0.000000 ;
   SIZE  3.840000 BY  4.070000 ;
