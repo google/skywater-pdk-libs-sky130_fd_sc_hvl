@@ -1,27 +1,35 @@
-* Copyright 2020 The SkyWater PDK Authors
+* File: sky130_fd_sc_hvl__lsbufhv2hv_hl_1.spice
+* Created: Fri Aug 28 09:36:36 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* 
+.include "sky130_fd_sc_hvl__lsbufhv2hv_hl_1.pex.spice"
+.subckt sky130_fd_sc_hvl__lsbufhv2hv_hl_1  VNB VPB LOWHVPWR A X VGND VPWR
+* 
+* VGND	VGND
+* X	X
+* A	A
+* LOWHVPWR	LOWHVPWR
+* VPB	VPB
+* VNB	VNB
+MM0_noxref N_VGND_M0_noxref_d N_A_662_81#_M0_noxref_g N_X_M0_noxref_s
++ N_VNB_M0_noxref_b NHV L=0.5 W=0.75 AD=0.194904 AS=0.19875 PD=1.60256 PS=2.03
++ NRD=16.7124 NRS=0 M=1 R=1.5 SA=250000 SB=250001 A=0.375 P=2.5 MULT=1
+MM1_noxref N_A_662_81#_M1_noxref_d N_A_M1_noxref_g N_VGND_M0_noxref_d
++ N_VNB_M0_noxref_b NHV L=0.5 W=0.42 AD=0.1197 AS=0.109146 PD=1.41 PS=0.897436
++ NRD=0 NRS=0 M=1 R=0.84 SA=250001 SB=250000 A=0.21 P=1.84 MULT=1
+MM1003 N_LOWHVPWR_M1003_d N_A_662_81#_M1003_g N_X_M1003_s N_LOWHVPWR_M1003_b PHV
++ L=0.5 W=1.5 AD=0.34 AS=0.4275 PD=2.52667 PS=3.57 NRD=0 NRS=0 M=1 R=3 SA=250000
++ SB=250000 A=0.75 P=4 MULT=1
+MM1001 N_A_662_81#_M1001_d N_A_M1001_g N_LOWHVPWR_M1003_d N_LOWHVPWR_M1003_b PHV
++ L=0.5 W=0.75 AD=0.21375 AS=0.17 PD=2.07 PS=1.26333 NRD=0 NRS=29.2803 M=1 R=1.5
++ SA=250001 SB=250000 A=0.375 P=2.5 MULT=1
+DX4_noxref N_VNB_M0_noxref_b N_VPB_X4_noxref_D1 NWDIODE A=4.9381 P=11
+DX5_noxref N_VNB_M0_noxref_b N_LOWHVPWR_M1003_b NWDIODE A=8.53125 P=11.75
+DX6_noxref N_VNB_M0_noxref_b N_VPB_X6_noxref_D1 NWDIODE A=6.75165 P=11.83
 *
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
+.include "sky130_fd_sc_hvl__lsbufhv2hv_hl_1.pxi.spice"
 *
-*     https://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
-
-
-.subckt sky130_fd_sc_hvl__lsbufhv2hv_hl_1 A LOWHVPWR VGND VNB VPB VPWR X
-M1000 a_762_107# a_662_81# X VNB nhv w=750000u l=500000u
-+  ad=3.0405e+11p pd=2.5e+06u as=1.9875e+11p ps=2.03e+06u
-M1001 a_662_81# A LOWHVPWR LOWHVPWR phv w=750000u l=500000u
-+  ad=2.1375e+11p pd=2.07e+06u as=5.1e+11p ps=3.79e+06u
-M1002 a_662_81# A a_762_107# VNB nhv w=420000u l=500000u
-+  ad=1.197e+11p pd=1.41e+06u as=0p ps=0u
-M1003 LOWHVPWR a_662_81# X LOWHVPWR phv w=1.5e+06u l=500000u
-+  ad=0p pd=0u as=4.275e+11p ps=3.57e+06u
 .ends
+*
+*
