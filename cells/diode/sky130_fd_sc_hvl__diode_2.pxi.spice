@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hvl__diode_2.pxi.spice
-* Created: Fri Aug 28 09:34:48 2020
+* Created: Wed Sep  2 09:05:41 2020
 * 
 x_PM_SKY130_FD_SC_HVL__DIODE_2%VNB N_VNB_D0_noxref_pos VNB N_VNB_c_2_p VNB
 + PM_SKY130_FD_SC_HVL__DIODE_2%VNB
