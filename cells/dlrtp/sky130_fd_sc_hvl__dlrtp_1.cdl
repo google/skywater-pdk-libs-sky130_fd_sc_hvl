@@ -16,44 +16,44 @@
 
 .SUBCKT sky130_fd_sc_hvl__dlrtp_1 D GATE RESET_B VGND VNB VPB VPWR Q
 *.PININFO D:I GATE:I RESET_B:I VGND:I VNB:I VPB:I VPWR:I Q:O
-MI635 clkpos clkneg VPB phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI22 M0 clkpos VPB phv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI25 net76 clkneg VPB phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI650 Q net96 VPB phv m=1 w=1.5 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MI633 clkneg GATE VPB phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI638 db D VPB phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MI30 VPWR db VPB phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MI32 net96 M0 VPB phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI29 net79 net96 VPB phv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI26 net96 RESET_B VPB phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI634 clkneg GATE VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI649 Q net96 VNB nhv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI652 net116 net96 VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI24 net99 clkpos VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI636 clkpos clkneg VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI637 db D VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MI31 VGND db VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MI33 net96 M0 VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI27 net95 RESET_B VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI23 M0 clkneg VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
+MI635 clkpos clkneg VPB pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI22 M0 clkpos VPB pfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI25 net76 clkneg VPB pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI650 Q net96 VPB pfet_g5v0d10v5 m=1 w=1.5 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI633 clkneg GATE VPB pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI638 db D VPB pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI30 VPWR db VPB pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI32 net96 M0 VPB pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI29 net79 net96 VPB pfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI26 net96 RESET_B VPB pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI634 clkneg GATE VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI649 Q net96 VNB nfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI652 net116 net96 VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI24 net99 clkpos VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI636 clkpos clkneg VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1
++ sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI637 db D VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI31 VGND db VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI33 net96 M0 VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI27 net95 RESET_B VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI23 M0 clkneg VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_hvl__dlrtp_1

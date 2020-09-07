@@ -16,8 +16,6 @@
 
 
 .subckt sky130_fd_sc_hvl__decap_4 VGND VNB VPB VPWR
-M1000 VGND VPWR VGND VNB nhv w=750000u l=1e+06u
-+  ad=4.125e+11p pd=4.1e+06u as=0p ps=0u
-M1001 VPWR VGND VPWR VPB phv w=1e+06u l=1e+06u
-+  ad=5.5e+11p pd=5.1e+06u as=0p ps=0u
+X0 VGND VPWR VGND VNB sky130_fd_pr__nfet_g5v0d10v5 w=750000u l=1e+06u
+X1 VPWR VGND VPWR VPB sky130_fd_pr__pfet_g5v0d10v5 w=1e+06u l=1e+06u
 .ends

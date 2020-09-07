@@ -16,24 +16,24 @@
 
 .SUBCKT sky130_fd_sc_hvl__xnor2_1 A B VGND VNB VPB VPWR Y
 *.PININFO A:I B:I VGND:I VNB:I VPB:I VPWR:I Y:O
-MMNnand0 VGND A VNB nhv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMNnand1 sndNA B VNB nhv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMNaoi10 nmid A VNB nhv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMNaoi11 nmid B VNB nhv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMNaoi20 Y inand VNB nhv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMPnand0 inand A VPB phv m=1 w=1.5 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMPnand1 inand B VPB phv m=1 w=1.5 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMPaoi10 VPWR A VPB phv m=1 w=1.5 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMPaoi11 sndPA B VPB phv m=1 w=1.5 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMPaoi20 Y inand VPB phv m=1 w=1.5 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
+MMNnand0 VGND A VNB nfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMNnand1 sndNA B VNB nfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMNaoi10 nmid A VNB nfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMNaoi11 nmid B VNB nfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMNaoi20 Y inand VNB nfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPnand0 inand A VPB pfet_g5v0d10v5 m=1 w=1.5 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPnand1 inand B VPB pfet_g5v0d10v5 m=1 w=1.5 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPaoi10 VPWR A VPB pfet_g5v0d10v5 m=1 w=1.5 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPaoi11 sndPA B VPB pfet_g5v0d10v5 m=1 w=1.5 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMPaoi20 Y inand VPB pfet_g5v0d10v5 m=1 w=1.5 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_hvl__xnor2_1

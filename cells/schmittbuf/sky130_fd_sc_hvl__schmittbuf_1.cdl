@@ -18,20 +18,20 @@
 *.PININFO A:I VGND:I VNB:I VPB:I VPWR:I X:O
 rI39 net069 VGND mrdn_hv m=1 w=0.29 l=1.355 isHV=TRUE
 rI38 VPWR net32 mrdp_hv m=1 w=0.29 l=3.11 isHV=TRUE
-MI5 net32 net36 VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMN0 net36 A VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MMN1 net40 A VNB nhv m=1 w=0.42 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MMIN1 X net36 VNB nhv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI6 net069 net36 VPB phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MMP0 VPWR A VPB phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MMP1 net56 A VPB phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MMIP1 X net36 VPB phv m=1 w=1.5 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
+MI5 net32 net36 VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMN0 net36 A VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMN1 net40 A VNB nfet_g5v0d10v5 m=1 w=0.42 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMIN1 X net36 VNB nfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI6 net069 net36 VPB pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMP0 VPWR A VPB pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMP1 net56 A VPB pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMIP1 X net36 VPB pfet_g5v0d10v5 m=1 w=1.5 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_hvl__schmittbuf_1
