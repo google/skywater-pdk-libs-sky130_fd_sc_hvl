@@ -16,24 +16,24 @@
 
 .SUBCKT sky130_fd_sc_hvl__lsbufhv2hv_lh_1 A LOWHVPWR VGND VNB VPB VPWR X
 *.PININFO A:I LOWHVPWR:I VGND:I VNB:I VPB:I VPWR:I X:O
-MI18 cross2 cross1 VPB phv m=1 w=0.42 l=1.0 mult=1 sa=0.265 sb=0.265
+MI18 cross2 cross1 VPB pfet_g5v0d10v5 m=1 w=0.42 l=1.0 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI7 Abb Ab LOWHVPWR pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI15 X cross2 VPB pfet_g5v0d10v5 m=1 w=1.5 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI19 cross1 cross2 VPB pfet_g5v0d10v5 m=1 w=0.42 l=1.0 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI27 Ab A LOWHVPWR pfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI8 Abb Ab VNB nfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI16 X cross2 VNB nfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI21 cross2 Abb VNB nfet_g5v0d10v5 m=4 w=1.5 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI22 cross1 Ab VNB nfet_g5v0d10v5 m=4 w=1.5 l=0.5 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MI28 Ab A VNB nfet_g5v0d10v5 m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
 + sd=0.28 topography=normal area=0.063 perim=1.14
-MI7 Abb Ab LOWHVPWR phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI15 X cross2 VPB phv m=1 w=1.5 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MI19 cross1 cross2 VPB phv m=1 w=0.42 l=1.0 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI27 Ab A LOWHVPWR phv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI8 Abb Ab VNB nhv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
-MI16 X cross2 VNB nhv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI21 cross2 Abb VNB nhv m=4 w=1.5 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI22 cross1 Ab VNB nhv m=4 w=1.5 l=0.5 mult=1 sa=0.265 sb=0.265
-+ sd=0.28 topography=normal area=0.063 perim=1.14
-MI28 Ab A VNB nhv m=1 w=0.75 l=0.5 mult=1 sa=0.265 sb=0.265 sd=0.28
-+ topography=normal area=0.063 perim=1.14
 .ENDS sky130_fd_sc_hvl__lsbufhv2hv_lh_1
