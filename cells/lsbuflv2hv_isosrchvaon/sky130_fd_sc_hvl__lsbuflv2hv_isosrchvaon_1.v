@@ -58,7 +58,7 @@ module sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon_1 (
     input  LVPWR  ;
     input  VPB    ;
     input  VNB    ;
-    sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon cell (
+    sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon base (
         .X(X),
         .A(A),
         .SLEEP_B(SLEEP_B),
@@ -104,7 +104,7 @@ module sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon_1 (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon cell (
+    sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon base (
         .X(X),
         .A(A),
         .SLEEP_B(SLEEP_B)

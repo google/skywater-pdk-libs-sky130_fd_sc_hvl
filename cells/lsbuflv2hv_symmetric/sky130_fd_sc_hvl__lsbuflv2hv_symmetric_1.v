@@ -54,7 +54,7 @@ module sky130_fd_sc_hvl__lsbuflv2hv_symmetric_1 (
     input  LVPWR;
     input  VPB  ;
     input  VNB  ;
-    sky130_fd_sc_hvl__lsbuflv2hv_symmetric cell (
+    sky130_fd_sc_hvl__lsbuflv2hv_symmetric base (
         .X(X),
         .A(A),
         .VPWR(VPWR),
@@ -97,7 +97,7 @@ module sky130_fd_sc_hvl__lsbuflv2hv_symmetric_1 (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_hvl__lsbuflv2hv_symmetric cell (
+    sky130_fd_sc_hvl__lsbuflv2hv_symmetric base (
         .X(X),
         .A(A)
     );
