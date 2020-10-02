@@ -55,7 +55,7 @@ module sky130_fd_sc_hvl__lsbufhv2lv_simple_1 (
     input  LVPWR;
     input  VPB  ;
     input  VNB  ;
-    sky130_fd_sc_hvl__lsbufhv2lv_simple cell (
+    sky130_fd_sc_hvl__lsbufhv2lv_simple base (
         .X(X),
         .A(A),
         .VPWR(VPWR),
@@ -98,7 +98,7 @@ module sky130_fd_sc_hvl__lsbufhv2lv_simple_1 (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_hvl__lsbufhv2lv_simple cell (
+    sky130_fd_sc_hvl__lsbufhv2lv_simple base (
         .X(X),
         .A(A)
     );
