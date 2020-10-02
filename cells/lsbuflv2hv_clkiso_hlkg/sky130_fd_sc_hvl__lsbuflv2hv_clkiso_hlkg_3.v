@@ -59,7 +59,7 @@ module sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg_3 (
     input  LVPWR  ;
     input  VPB    ;
     input  VNB    ;
-    sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg cell (
+    sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg base (
         .X(X),
         .A(A),
         .SLEEP_B(SLEEP_B),
@@ -105,7 +105,7 @@ module sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg_3 (
     supply1 VPB  ;
     supply0 VNB  ;
 
-    sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg cell (
+    sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg base (
         .X(X),
         .A(A),
         .SLEEP_B(SLEEP_B)
