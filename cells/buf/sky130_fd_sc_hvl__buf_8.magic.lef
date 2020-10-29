@@ -69,6 +69,8 @@ MACRO sky130_fd_sc_hvl__buf_8
     PORT
       LAYER met1 ;
         RECT 0.000000 -0.115000 9.600000 0.115000 ;
+      LAYER pwell ;
+        RECT 0.000000 -0.085000 9.600000 0.085000 ;
     END
   END VNB
   PIN VPB
@@ -77,6 +79,8 @@ MACRO sky130_fd_sc_hvl__buf_8
     PORT
       LAYER met1 ;
         RECT 0.000000 3.955000 9.600000 4.185000 ;
+      LAYER nwell ;
+        RECT -0.330000 1.885000 9.930000 4.485000 ;
     END
   END VPB
   PIN VPWR
