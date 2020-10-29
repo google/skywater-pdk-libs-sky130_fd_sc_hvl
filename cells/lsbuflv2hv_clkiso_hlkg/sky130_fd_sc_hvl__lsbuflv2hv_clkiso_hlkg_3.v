@@ -81,22 +81,12 @@ endmodule
 module sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg_3 (
     X      ,
     A      ,
-    SLEEP_B,
-    VPWR   ,
-    VGND   ,
-    LVPWR  ,
-    VPB    ,
-    VNB
+    SLEEP_B
 );
 
     output X      ;
     input  A      ;
     input  SLEEP_B;
-    input  VPWR   ;
-    input  VGND   ;
-    input  LVPWR  ;
-    input  VPB    ;
-    input  VNB    ;
 
     // Voltage supply signals
     supply1 VPWR ;

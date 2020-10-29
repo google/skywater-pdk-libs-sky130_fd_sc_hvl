@@ -74,22 +74,12 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_hvl__lsbufhv2lv_simple_1 (
-    X    ,
-    A    ,
-    VPWR ,
-    VGND ,
-    LVPWR,
-    VPB  ,
-    VNB
+    X,
+    A
 );
 
-    output X    ;
-    input  A    ;
-    input  VPWR ;
-    input  VGND ;
-    input  LVPWR;
-    input  VPB  ;
-    input  VNB  ;
+    output X;
+    input  A;
 
     // Voltage supply signals
     supply1 VPWR ;

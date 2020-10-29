@@ -82,11 +82,7 @@ module sky130_fd_sc_hvl__sdlxtp_1 (
     D   ,
     SCD ,
     SCE ,
-    GATE,
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
+    GATE
 );
 
     output Q   ;
@@ -94,10 +90,6 @@ module sky130_fd_sc_hvl__sdlxtp_1 (
     input  SCD ;
     input  SCE ;
     input  GATE;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
 
     // Voltage supply signals
     supply1 VPWR;
