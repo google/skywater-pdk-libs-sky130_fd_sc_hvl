@@ -54,6 +54,8 @@ MACRO sky130_fd_sc_hvl__lsbufhv2lv_1
     PORT
       LAYER met1 ;
         RECT 0.070000 3.020000 8.090000 3.305000 ;
+      LAYER nwell ;
+        RECT 3.530000 1.925000 5.000000 5.575000 ;
     END
   END LVPWR
   PIN VGND
@@ -70,6 +72,8 @@ MACRO sky130_fd_sc_hvl__lsbufhv2lv_1
     PORT
       LAYER met1 ;
         RECT 0.000000 8.025000 8.160000 8.255000 ;
+      LAYER pwell ;
+        RECT 0.000000 8.055000 8.160000 8.225000 ;
     END
   END VNB
   PIN VPB
@@ -78,6 +82,9 @@ MACRO sky130_fd_sc_hvl__lsbufhv2lv_1
     PORT
       LAYER met1 ;
         RECT 0.000000 3.955000 8.160000 4.185000 ;
+      LAYER nwell ;
+        RECT -0.330000 1.885000 1.530000 6.255000 ;
+        RECT  7.000000 1.885000 8.490000 6.255000 ;
     END
   END VPB
   PIN VPWR
@@ -186,6 +193,8 @@ MACRO sky130_fd_sc_hvl__lsbufhv2lv_1
       RECT 0.000000 -0.115000 8.160000 0.115000 ;
       RECT 0.000000  0.255000 8.160000 0.625000 ;
       RECT 0.000000  3.445000 8.160000 3.815000 ;
+    LAYER pwell ;
+      RECT 0.000000 -0.085000 8.160000 0.085000 ;
   END
 END sky130_fd_sc_hvl__lsbufhv2lv_1
 END LIBRARY
